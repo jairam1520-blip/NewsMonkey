@@ -12,10 +12,7 @@ import { useState } from "react";
   let apiKey=process.env.REACT_APP_NEWSMONKEY_API_KEY
   
   const [progress, setProgress] = useState(0);
-  
-  
 
-    
     return (
      
       <BrowserRouter>
@@ -39,6 +36,5 @@ import { useState } from "react";
       </Routes>
     </BrowserRouter>
     );
-  
 }
 export default App;
